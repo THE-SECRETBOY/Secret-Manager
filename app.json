@@ -1,14 +1,14 @@
 {
-      "name": "PglRobot",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "Secret-Manager",
+      "description": "A amazing group manager telegram bot with many features and HardWork.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "PglRobot"
+         "Secret-Manager"
       ],   
-   "repository": "https://github.com/iisgaurav/PglRobot",
+   "repository": "https://github.com/THE-SECRETBOY/Secret-Manager",
    "addons": [
       {
          "options": {
@@ -18,66 +18,66 @@
       }
    ],
    "env": {
-      "TOKEN": {
+      "botTOKEN": {
          "description": "Your bot token. Get one from @BotFather ",
          "required": true,
          "value": ""
       },
-      "API_ID": {
+      "apiID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
       },
-      "API_HASH": {
+      "apiHASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
       },    
-      "SQLALCHEMY_DATABASE_URI": {
+      "sqldbtypeURL": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
-      "OWNER_ID": {
+      "ownerID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1100735944"
+         "value": "1698071935"
       },
-      "OWNER_USERNAME": {
+      "ownerUSERNAME": {
          "description": "Your username without the @",
-         "value": "iisgaurav"
+         "value": "SempleBoy"
       },
-      "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: PglRobot. If this ever points to PglRobot support than consider you made an enemy.",
+      "yourGROUP": {
+         "description": "Your telegram group username without @.",
          "required": true,
-         "value": "AuraXSupport"
+         "value": "SecretGroupC"
       },
-      "EVENT_LOGS": {
-         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+      "loggerID": {
+         "description": "Logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001229524469"
       },
-      "JOIN_LOGGER": {
+      "joinLOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001229524469"
       },      
-      "CASH_API_KEY": {
+      "cashAPI": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
          "value": "-xyz"
       },
-      "TIME_API_KEY": {
+      "timeAPI": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
          "value": "-xyz"
       },
-      "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother PglRobot support then keep the current ID's here at they are and add yours.",
+      "sudoACCESS": {
+         "description": "ID of users who can access of your bot (can use /py etc.).",
          "required": false,
-         "value": "1100735944 1520742003 1619057027 1719433002"
+         "value": "1698071935"
       },
-      "sw_api": {
+      "swAPI": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
          "value": ""
@@ -89,7 +89,7 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users. After existing Id add yours. ",
          "required": false,
-         "value": "1100735944 1520742003 1619057027 1719433002"
+         "
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
